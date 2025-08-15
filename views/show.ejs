@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get specific user post by its id</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <h1>Here is your post in details</h1>
+    <h2>id:<%= id %></h2>
+    <% for(let post of posts){ %>
+        <% if(post.id==id){ %>
+            <div class="post">
+                <h3 class="user">@<%= post.user %></h3>
+                <h4 class="pur"><%= post.purpose %></h4>
+                <a href="http://localhost:8080/posts">Hide Details</a>
+            </div>
+            <%} %>
+                <%} %> 
+                </body>
+
+</html>
