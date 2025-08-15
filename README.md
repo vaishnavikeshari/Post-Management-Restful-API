@@ -2,8 +2,6 @@
 
 A RESTful API built for managing posts — including creation, retrieval, updating, and deletion — with clean architecture and efficient request handling.
 
-🔗 **Live Demo:** [Click Here](https://your-live-demo-link.com)
-
 ---
 
 ## 🚀 Features
